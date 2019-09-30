@@ -1,0 +1,50 @@
+html {
+    background-color: black;
+}
+
+#mort {
+    color: red;
+    font-size: 100pt;
+}
+
+#mort {
+    text-align: center;
+}
+
+ @font-face {
+    font-family: "ds1";
+    src: url("optimusprinceps.ttf");
+  }
+
+  p {
+      font-size: 20pt;
+      color: white;
+  }
+
+  #texte1 {
+      text-transform: uppercase;
+      text-align: center;
+  }
+  
+  body {
+    font-family: "ds1";
+  }
+
+
+  .fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: 5s;
+    margin-top: 200px;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

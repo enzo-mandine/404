@@ -5,10 +5,8 @@ html {
 #mort {
     color: red;
     font-size: 100pt;
-}
-
-#mort {
     text-align: center;
+    margin-bottom: -2%;
 }
 
  @font-face {
@@ -17,27 +15,53 @@ html {
   }
 
   p {
-      font-size: 20pt;
-      color: white;
+
+  }
+
+  #foot {
+      text-align: center;
+      text-transform: lowercase;
+      z-index: 3;
+      color: grey;
+      margin-top: 3%;
+  }
+
+  #test {
+      display: inline-flex;
+  }
+
+  #solair {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    size: 80%;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: 5s;
   }
 
   #texte1 {
       text-transform: uppercase;
       text-align: center;
-  }
-  
-  body {
-    font-family: "ds1";
-  }
-
-
+      size: 15pt;
+      transform: scale(1);
+      transition: all 0.3s ease-in-out 0.1s;
+      margin-bottom: px;
+      font-size: 20pt;
+      color: white;
+  } 
+ 
   .fade-in {
 	opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
     animation-duration: 5s;
-    margin-top: 200px;
+    margin-top: 50px;
+    font-family: "ds1";
+    
 }
 
 @keyframes fadeInOpacity {
